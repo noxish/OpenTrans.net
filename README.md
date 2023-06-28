@@ -1,5 +1,4 @@
 # OpenTrans.net
-[![NuGet](https://img.shields.io/nuget/v/OpenTrans.net?color=blue)](https://www.nuget.org/packages/OpenTrans.net/)
 
 OpenTrans is an XML-based format that is used for electronic data exchange in the logistics industry. It defines a set of standardized XML schemas that can be used for exchanging information about orders, order responses, and other logistics-related information between different software systems.
 
@@ -8,16 +7,6 @@ To make it easier to work with OpenTrans data in C#, you can use the OpenTrans.n
 One of the most important types of OpenTrans documents are orders and order responses. An order document contains information about a customer's order, including details such as the order ID, customer information, shipping address, and the products being ordered. An order response document contains information about the status of the order, such as whether it has been accepted or rejected by the supplier.
 
 OpenTrans.net supports the latest version of the OpenTrans standard. Additionally, if you need to work with the related BMECat standard for catalog data exchange, you can also use the BMECat.net library (https://github.com/stephanstapel/BMECat.net), which provides similar functionality for reading and writing BMECat documents.
-
-
-# Installation
-You can get the library from nuget or from Visual Studio Package Manager under the name OpenTrans.net.
-
-The URL of the package is here:
-
-[![NuGet](https://img.shields.io/nuget/v/OpenTrans.net?color=blue)](https://www.nuget.org/packages/OpenTrans.net/)
-
-https://www.nuget.org/packages/OpenTrans.net/
 
 # Usage
 ## Creating orders
